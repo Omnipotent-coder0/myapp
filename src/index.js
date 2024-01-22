@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import About from './screens/About';
 import Contact from './screens/Contact';
+import Register from './screens/Register';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <About title = "main page"/>
+    <Register/>
     <App />
     <Contact />
   </React.StrictMode>
