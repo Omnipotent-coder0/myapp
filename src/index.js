@@ -2,11 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import About from './screens/About';
+import Contact from './screens/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <About title = "main page"/>
     <App />
+    <Contact />
   </React.StrictMode>
 );
 
