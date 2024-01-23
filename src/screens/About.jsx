@@ -5,7 +5,7 @@ function About({title}) {
   return (
     <div>
         <Header title = {title}/>
-        <h1>hello this is about section !!</h1>
+        <h1 className='text-primary'>hello this is about section !!</h1>
     </div>
   )
 }
