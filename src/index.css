@@ -1,0 +1,47 @@
+/* @import "../node_modules/bootstrap/scss/bootstrap"; */
+.home{
+    min-height: 100vh;
+    background-color: blanchedalmond;
+}
+
+.full-space{
+    width: 100%;
+    /* margin: 20px auto; */
+    margin-bottom: 10px;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 0;
+}
+.cc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cell{
+    display: flex;
+}
+.cell-text{
+    width: 100%;
+    padding: 1rem;
+}
+/* *{
+    border: 1px solid crimson;
+} */
+.cell-text span{
+    color: rgba(0, 0, 0, 0.516);
+}
+.del-btn{
+    height: 50px;
+    width: 50px;
+    color: aliceblue;
+    border-radius: 100%;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 18px;
+    margin-right: 1rem;
+}
+body{
+    /* background-color: rgba(245, 131, 131, 0.68); */
+}

@@ -13,7 +13,6 @@ function Register() {
     //   setMail(event.target.value); // set the mail to be equal to event.target.value
     // }
     console.log(mail);
-    setMail(mail)
     let age = 18;
   return (
     <>
